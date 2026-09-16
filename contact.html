@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Law Office of José Alfredo Hernández, A.P.C. — Immigration, Criminal Defense and Post-Conviction Relief.">
+<title>Contact | Law Office JAH</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="images/logo.png">
+<link rel="apple-touch-icon" href="images/logo.png">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span data-i18n="consultCall">Call for a comprehensive consultation</span>
+      <a class="phone-link" href="tel:+17145684529">714-568-4529</a>
+    </div>
+  </div>
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="Law Office of José Alfredo Hernández home">
+      <img src="https://static.wixstatic.com/media/baba5f_11d7085220e54ff88951916c8787fc20~mv2.png" alt="JAH Law Office logo">
+      <span><strong>Law Office of</strong><br>José Alfredo Hernández, A.P.C.</span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-menu">Menu</button>
+    <nav id="main-menu" class="main-nav" aria-label="Main navigation">
+      <a href="index.html" data-i18n="home">Home</a>
+      <a href="immigration.html" data-i18n="immigration">Immigration</a>
+      <a href="criminal-defense.html" data-i18n="criminal">Criminal Defense</a>
+      <a href="post-conviction.html" data-i18n="post">Post-Conviction</a>
+      <a href="about.html" data-i18n="about">About</a>
+      
+      <a href="resources.html" data-i18n="resources">Resources</a>
+      <a href="contact.html" data-i18n="contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="lang-btn" id="langToggle" type="button" aria-label="Switch language">ES</button>
+      <a class="button button-small button-green" href="tel:+17145684529">☎ <span data-i18n="call">Call</span></a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-hero"><div class="container"><p class="eyebrow">Contact Us</p><h1>We're here to help.</h1><p>Call, email, visit the office or request a consultation online.</p></div></section>
+<section class="section section-soft"><div class="container contact-grid">
+<div>
+<div class="contact-card"><h3>Call the office</h3><a class="big-contact" href="tel:+17145684529">714-568-4529</a><p>Tap the number on your phone to call.</p></div>
+<div class="contact-card"><h3>Visit the office</h3><p>924 E Chapman Ave<br>Orange, CA 92866</p><div class="actions"><a class="button button-green" href="https://www.google.com/maps/dir/?api=1&destination=924%20E%20Chapman%20Ave%2C%20Orange%2C%20CA%2092866" target="_blank" rel="noopener">📍 Get directions</a></div></div>
+<div class="contact-card"><h3>Email</h3><a class="big-contact" style="font-size:21px" href="mailto:receptionist@1jahlaw.com">receptionist@1jahlaw.com</a><p>Fax: 714-415-2017</p></div>
+</div>
+<div class="form-card"><h2>Request a consultation</h2><p>Use the short form and the office can follow up with you.</p>
+<form id="consultationForm"><div class="form-grid">
+<div><label for="name">Full name</label><input id="name" name="name" autocomplete="name" required></div>
+<div><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" required></div>
+<div class="full"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email"></div>
+<div class="full"><label>What can we help with?</label><div class="radio-grid">
+<label><input type="radio" name="matter" value="immigration" required> Immigration</label>
+<label><input type="radio" name="matter" value="criminal"> Criminal Defense</label>
+<label><input type="radio" name="matter" value="post"> Post-Conviction Relief</label>
+<label><input type="radio" name="matter" value="unsure"> I'm not sure</label></div></div>
+<div class="full"><label for="message">Briefly tell us what you need help with</label><textarea id="message" name="message"></textarea></div>
+<div class="full"><p class="form-note">Please do not include highly sensitive or confidential details in this form.</p><button class="button button-green" type="submit">Send request</button><div id="formStatus" role="status"></div></div>
+</div></form></div>
+</div></section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <img class="footer-logo" src="images/logo.png" alt="JAH Law Office">
+      <p>Law Office of José Alfredo Hernández, A.P.C.</p>
+      <p>Immigration &amp; Criminal Defense</p>
+    </div>
+    <div>
+      <h3 data-i18n="office">Office</h3>
+      <p><a href="https://www.google.com/maps/search/?api=1&query=924+E+Chapman+Ave,+Orange,+CA+92866" target="_blank" rel="noopener">924 E Chapman Ave<br>Orange, CA 92866</a></p>
+      <a href="tel:+17145684529">714-568-4529</a><br>
+      <a href="mailto:receptionist@1jahlaw.com">receptionist@1jahlaw.com</a>
+    </div>
+    <div>
+      <h3 data-i18n="nextStep">Ready for the next step?</h3>
+      <p data-i18n="footerText">Speak with our office about your situation.</p>
+      <a class="button button-green" href="consultation.html" data-i18n="requestConsult">Request a consultation</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> Law Office of José Alfredo Hernández, A.P.C.</span>
+    <a href="contact.html" data-i18n="contact">Contact</a>
+  </div>
+</footer>
+<div class="mobile-call"><a href="tel:+17145684529">☎ <span data-i18n="callOffice">Call the office</span></a></div>
+
+<script src="script.js"></script>
+</body>
+</html>

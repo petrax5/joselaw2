@@ -1,0 +1,1 @@
+Spanish pages are complete page translations, not just translated navigation. The ES/EN button switches between the corresponding full page versions.
